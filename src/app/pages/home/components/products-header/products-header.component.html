@@ -19,10 +19,16 @@
                 <mat-menu #menu="matMenu">
                     <button (click)="onItemUpdate(15)" mat-menu-item>15</button>
                 </mat-menu>
-                    
-                
-                
             </div>
+            <button (click)="onColumnsUpdate(1)">
+                <mat-icon>view_list</mat-icon>
+            </button>
+            <button (click)="onColumnsUpdate(3)">
+                <mat-icon>view_module</mat-icon>
+            </button>
+            <button (click)="onColumnsUpdate(4)">
+                <mat-icon>view_comfy</mat-icon>
+            </button>
         </div>
     </div>
 </mat-card>
